@@ -5240,7 +5240,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "\uBB38\uC11C\uD604 / \uBC15\uD604\uC544"
+  m_text: "\uBB38\uC11C\uD604 / \uBC30\uD604\uC544"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 044957ba3d3f4a540b72dfb21103ea4a, type: 2}
   m_sharedMaterial: {fileID: -2979698738269368201, guid: 044957ba3d3f4a540b72dfb21103ea4a, type: 2}

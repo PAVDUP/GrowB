@@ -19,9 +19,10 @@ public class GameOverCollision : MonoBehaviour
         {
             DongleFeature otherDongle = other.GetComponent<DongleFeature>();
 
-            if (otherDongle.overDongleCheck == true)
+            if (otherDongle.overDongleCheck)
             {
                 StartCoroutine(GameOver());
+                FindObjectOfType<TouchLaunch>().CanLaunch = false;
             }
         }
     }

@@ -15,6 +15,12 @@ public class TouchLaunch : MonoBehaviour
     private bool _canLaunch;
     private Transform _startPosTransform;
     [Range(0, 10)] public float impulseStrength = 5;
+
+    public bool CanLaunch
+    {
+        get => _canLaunch; 
+        set => _canLaunch = value;
+    }
     
     // About Random Dongle - Level Design
     public enum Level {L1, L2, L3};
