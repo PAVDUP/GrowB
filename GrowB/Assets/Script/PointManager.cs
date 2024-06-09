@@ -49,7 +49,35 @@ public class PointManager : MonoBehaviour
             _point = + value;
             _pointText.text = _point.ToString();
 
-            if (_point >= 7000)
+            if (_point >= 50000)
+            {
+                FindObjectOfType<TouchLaunch>().notDongleBMaxCount = 100;
+            }
+            else if (_point >= 40000)
+            {
+                FindObjectOfType<TouchLaunch>().notDongleBMaxCount = 60;
+            }
+            else if (_point >= 30000)
+            {
+                FindObjectOfType<TouchLaunch>().notDongleBMaxCount = 50;
+            }
+            else if (_point >= 25000)
+            {
+                FindObjectOfType<TouchLaunch>().notDongleBMaxCount = 40;
+            }
+            else if (_point >= 20000)
+            {
+                FindObjectOfType<TouchLaunch>().notDongleBMaxCount = 35;
+            }
+            else if (_point >= 16000)
+            {
+                FindObjectOfType<TouchLaunch>().notDongleBMaxCount = 30;
+            }
+            else if (_point >= 12000)
+            {
+                FindObjectOfType<TouchLaunch>().notDongleBMaxCount = 25;
+            }
+            else if (_point >= 7000)
             {
                 FindObjectOfType<TouchLaunch>().myLevel = TouchLaunch.Level.L3;
             }

@@ -7,11 +7,15 @@ using UnityEngine.Serialization;
 public class TouchLaunch : MonoBehaviour
 {
     // About Dongle
+    [Header("Dongle")]
     [FormerlySerializedAs("DonglePrefab")] public GameObject[] donglePrefab;
+    public int notDongleBMaxCount = 20;
     private GameObject _myDongle;
     private Rigidbody2D _myDongleRigidbody;
+    private int _notDongleBCount = 0;
 
     // About Launch
+    [Header("Launch")]
     private bool _canLaunch;
     private Transform _startPosTransform;
     [Range(0, 10)] public float impulseStrength = 5;
@@ -75,7 +79,25 @@ public class TouchLaunch : MonoBehaviour
             temp += possibility[i] * 10;
             if (rand < temp)
             {
-                _myDongle = Instantiate(donglePrefab[i], _startPosTransform.position, Quaternion.identity);
+                if (_notDongleBCount < notDongleBMaxCount)
+                {
+                    _myDongle = Instantiate(donglePrefab[i], _startPosTransform.position, Quaternion.identity);
+                }
+                else
+                {
+                    // Dongle B가 아닌 Dongle이 5번 이상 생성되었을 때, Dongle B를 생성. Index 기반으로 해서, 문제 있을 수도 있으니, 만약 나중에 종류 늘어나면 꼭 체크할 것!
+                    _myDongle = Instantiate(donglePrefab[5], _startPosTransform.position, Quaternion.identity);
+                }
+                
+                if (_myDongle.GetComponent<DongleFeatureB>() != null)
+                {
+                    _notDongleBCount = 0;
+                }
+                else
+                {
+                    _notDongleBCount++;
+                }
+                
                 break;
             }
         }

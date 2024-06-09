@@ -1,3 +1,4 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -9,6 +10,13 @@ public class AudioVolumeChange : MonoBehaviour
     public AudioMixer audioMixer;
     public Slider audioBGMSlider;
     public Slider audioEffectsSlider;
+
+    private void Awake()
+    {
+        // Set Slider Value
+        audioBGMSlider.value = PlayerPrefs.GetFloat("BGMVolume", 0);
+        audioEffectsSlider.value = PlayerPrefs.GetFloat("EffectsVolume", 0);
+    }
 
     public void BGMControl()
     {
