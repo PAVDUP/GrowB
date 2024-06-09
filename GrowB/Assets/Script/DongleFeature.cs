@@ -20,7 +20,7 @@ public class DongleFeature : MonoBehaviour
 
     protected void OnCollisionStay2D(Collision2D collision)
     {
-        Debug.Log("Collision Occur");
+        // Debug.Log("Collision Occur");
 
         if (collision.transform.CompareTag("Dongle"))
         {

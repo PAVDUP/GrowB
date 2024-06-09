@@ -1,0 +1,52 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bbb281ee3bf0b054c82ac2347e9e782c, type: 3}
+  m_Name: Localization-Assets-Shared
+  m_EditorClassIdentifier: 
+  m_GroupName: Localization-Assets-Shared
+  m_Data:
+    m_SerializedData: []
+  m_GUID: 6f1add7ae0342264fb989dbce5472957
+  m_SerializeEntries:
+  - m_GUID: 3b3b3809a72181049b193ea1bc552b55
+    m_Address: Assets/Localization/Tables/New Table Shared Data.asset
+    m_ReadOnly: 1
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 896a7e543fe63904da826049986ee9aa
+    m_Address: Assets/Localization/Tables/TitleImage/New Table Shared Data.asset
+    m_ReadOnly: 1
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 7d3ad5a30ac0b3543b662755acd04069
+    m_Address: gj22_title_logo_eng
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-ja
+    - Locale-en
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 77ec9969d85490f47bf3ddb00e97a96a
+    m_Address: Assets/Localization/Tables/MainScene/MainScene Shared Data.asset
+    m_ReadOnly: 1
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 2e8f4fc74637ec64c93f38e00321a3c2
+    m_Address: Assets/Localization/Tables/GameOverScene/GameOverScene Shared Data.asset
+    m_ReadOnly: 1
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  m_ReadOnly: 1
+  m_Settings: {fileID: 11400000, guid: b675fd6eeb66f1842b79baff964b89db, type: 2}
+  m_SchemaSet:
+    m_Schemas:
+    - {fileID: 11400000, guid: e285a61c6b4e4d24a9882276c868e533, type: 2}
+    - {fileID: 11400000, guid: 0fb7f0b6b0bb63742b296de3eff69dc8, type: 2}

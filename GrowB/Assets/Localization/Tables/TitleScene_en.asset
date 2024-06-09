@@ -1,0 +1,87 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e9620f8c34305754d8cc9a7e49e852d9, type: 3}
+  m_Name: TitleScene_en
+  m_EditorClassIdentifier: 
+  m_LocaleId:
+    m_Code: en
+  m_SharedData: {fileID: 11400000, guid: 3b3b3809a72181049b193ea1bc552b55, type: 2}
+  m_Metadata:
+    m_Items: []
+  m_TableData:
+  - m_Id: 180659716096
+    m_Localized: Credit
+    m_Metadata:
+      m_Items: []
+  - m_Id: 162267693056
+    m_Localized: Setting
+    m_Metadata:
+      m_Items: []
+  - m_Id: 131456335872
+    m_Localized: Description
+    m_Metadata:
+      m_Items: []
+  - m_Id: 105124495360
+    m_Localized: Start!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4573006168064
+    m_Localized: Back
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4934190268416
+    m_Localized: More bigger, same kind combine!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5193134014464
+    m_Localized: 'Peacocks can''t combine! '
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5633212973056
+    m_Localized: Bomb bird can boom other!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 7640262934528
+    m_Localized: BGM
+    m_Metadata:
+      m_Items: []
+  - m_Id: 7661649690624
+    m_Localized: SFX
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10796308922368
+    m_Localized: Design
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10992279388160
+    m_Localized: Dev
+    m_Metadata:
+      m_Items: []
+  - m_Id: 11620024090624
+    m_Localized: Art
+    m_Metadata:
+      m_Items: []
+  - m_Id: 11658653630464
+    m_Localized: PAVDUP
+    m_Metadata:
+      m_Items: []
+  - m_Id: 11690274488320
+    m_Localized: Moon / Bae
+    m_Metadata:
+      m_Items: []
+  - m_Id: 11677280534528
+    m_Localized: Ahn
+    m_Metadata:
+      m_Items: []
+  references:
+    version: 2
+    RefIds: []

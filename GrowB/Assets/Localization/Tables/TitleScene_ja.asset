@@ -1,0 +1,87 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e9620f8c34305754d8cc9a7e49e852d9, type: 3}
+  m_Name: TitleScene_ja
+  m_EditorClassIdentifier: 
+  m_LocaleId:
+    m_Code: ja
+  m_SharedData: {fileID: 11400000, guid: 3b3b3809a72181049b193ea1bc552b55, type: 2}
+  m_Metadata:
+    m_Items: []
+  m_TableData:
+  - m_Id: 105124495360
+    m_Localized: "\u304B\u3044\u3057!"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 131456335872
+    m_Localized: "\u305B\u3064\u3081\u3044"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 162267693056
+    m_Localized: "\u305B\u3063\u3066\u3044"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 180659716096
+    m_Localized: "\u30AF\u30EC\u30B8\u30C3\u30C8"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4573006168064
+    m_Localized: "\u30D0\u30C3\u30AF"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4934190268416
+    m_Localized: "\u304A\u306A\u3058\u3082\u306E\u3092\u307E\u3068\u3081\u308B\u3068\u304A\u304A\u304F\u306A\u308B\u3093\u3067\u3059!"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5193134014464
+    m_Localized: "\u304F\u3058\u3083\u304F\u306F\u3042\u308F\u306A\u3044\u3067\u3059!"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5633212973056
+    m_Localized: "\u3070\u304F\u3060\u3093\u3068\u308A\u306F\u307B\u304B\u306E\u3082\u306E\u3092\u3070\u304F\u306F\u3064\u3055\u305B\u307E\u3059!"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 7640262934528
+    m_Localized: BGM
+    m_Metadata:
+      m_Items: []
+  - m_Id: 7661649690624
+    m_Localized: SFX
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10796308922368
+    m_Localized: "\u304D\u304B\u304F"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10992279388160
+    m_Localized: "\u304B\u3044\u306F\u3064"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 11620024090624
+    m_Localized: "\u30A2\u30C8"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 11658653630464
+    m_Localized: "\u3076\u308A\u3069\u3093"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 11677280534528
+    m_Localized: Ahn
+    m_Metadata:
+      m_Items: []
+  - m_Id: 11690274488320
+    m_Localized: Moon / Bae
+    m_Metadata:
+      m_Items: []
+  references:
+    version: 2
+    RefIds: []
