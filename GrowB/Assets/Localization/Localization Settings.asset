@@ -27,7 +27,7 @@ MonoBehaviour:
     - rid: 867654525637361740
     - rid: 867654525637361739
   m_ProjectLocaleIdentifier:
-    m_Code: ko-KR
+    m_Code: en
   m_PreloadBehavior: 1
   m_InitializeSynchronously: 0
   references:
@@ -46,7 +46,7 @@ MonoBehaviour:
       type: {class: SpecificLocaleSelector, ns: UnityEngine.Localization.Settings, asm: Unity.Localization}
       data:
         m_LocaleId:
-          m_Code: ko-KR
+          m_Code: en
     - rid: 867654525637361667
       type: {class: LocalesProvider, ns: UnityEngine.Localization.Settings, asm: Unity.Localization}
       data: 
